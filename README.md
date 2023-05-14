@@ -5,7 +5,7 @@ agina para mandar para aquela morena que você ta saindo.
 
 Desktop:
 
-![Page DoYouLoveMe DESKTOP](design/screen-desktop.png)
+![Page DoYouLoveMe DESKTOP](design/screenDesktop.png)
 
 <br>
 
