@@ -1,0 +1,100 @@
+body {
+    background: black url('../images/SAD.jpg') no-repeat center center/contain;;
+}
+
+body > div{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: black;
+}
+
+div.Proposta {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+div.Proposta {
+    text-shadow: -6px -6px 8px rgba(0, 0, 0, 0.5);
+}
+
+.Opcoes{
+    margin-top: 40px;
+    position: static;
+    display: flex;
+}
+
+.Opcoes a {
+    border: 3px solid goldenrod;
+    background-color: rgb(142, 5, 5);
+    padding: 10px 60px;
+    border-radius: 9px;
+}
+
+.Opcoes a{
+    position: absolute;
+}
+
+.Opcoes a#botao_Sim{
+    right: 52%;
+}
+
+.Opcoes a#botao_Sim:hover{
+    animation: pulse 1.5s infinite;
+    
+}
+
+.Opcoes a#botao_Sim:hover{
+    background-color: rgb(216, 5, 5);
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    20% {
+        transform: scale(0.9);
+    }
+    30% {
+        transform: scale(1.1);
+    }
+    50% {
+        transform: scale(1);
+    }
+    60% {
+        transform: scale(1.05);
+    }
+    80% {
+        transform: scale(0.9);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+p.footer {
+    color: gold;
+    position: fixed;
+    bottom: 0;
+}
+
+:root {
+    --cor-primaria: #ff0000;
+    --cor-secundaria: goldenrod;
+  }
+
+.aviso, div .Resposta{
+    text-align: center;
+    margin-top: 80px;
+    text-transform: capitalize;
+
+    text-shadow: 0 0 10px var(--cor-secundaria), 0 0 20px var(--cor-secundaria), 0 0 30px var(--cor-secundaria), 0 0 40px var(--cor-primaria), 0 0 70px var(--cor-primaria), 0 0 80px var(--cor-primaria), 0 0 100px var(--cor-primaria);
+}
+
