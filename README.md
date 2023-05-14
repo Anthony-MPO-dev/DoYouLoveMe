@@ -1,7 +1,5 @@
 # DoYouLoveMe?
-Mini-Pokedex | Listagem de Pokémons
-
-<p>Pagina para mandar para aquela morena que você ta saindo.</p>
+agina para mandar para aquela morena que você ta saindo.
 
 ## Screenshots
 
